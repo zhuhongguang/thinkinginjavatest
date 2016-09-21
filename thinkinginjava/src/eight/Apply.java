@@ -13,6 +13,8 @@ class Upcase extends Processor{
 		return ((String)input).toUpperCase();
 	}
 }
+
+
 class Downcase extends Processor{
 	String process(Object input){
 		return ((String)input).toLowerCase();
