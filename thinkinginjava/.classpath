@@ -3,6 +3,11 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="lib" path="C:/Users/Administrator/Downloads/xom-1.2.10/XOM/xom-1.2.10.jar" sourcepath="C:/Users/Administrator/.m2/repository/com/io7m/xom/xom/1.2.10/xom-1.2.10-sources.jar"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<accessrules>
+			<accessrule kind="accessible" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Downloads/crimson.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
